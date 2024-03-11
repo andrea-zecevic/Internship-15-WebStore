@@ -46,7 +46,7 @@ const ProductsPage = () => {
 
   return (
     <div className="productsPageContainer">
-      <label className="categoryLabel">Odaberi kategoriju:</label>
+      <label className="categoryLabel">Choose a category:</label>
       <select
         value={selectedCategory}
         onChange={(e) => setSelectedCategory(e.target.value)}

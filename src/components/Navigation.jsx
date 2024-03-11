@@ -16,11 +16,11 @@ const Navigation = () => {
       <input
         name="search"
         type="text"
-        placeholder="Traži proizvode..."
+        placeholder="Search for products..."
         className="input"
       />
       <button type="submit" className="button">
-        Pretraži
+        Search
       </button>
     </form>
   );
